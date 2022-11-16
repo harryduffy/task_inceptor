@@ -1,4 +1,4 @@
-make: Entering directory `/Users/alexmorton/Desktop/Work/task_inceptor'
-source venv/bin/activate
-make: Leaving directory `/Users/alexmorton/Desktop/Work/task_inceptor'
- 
+make --dry-run --always-make --keep-going --print-directory
+
+You have not agreed to the Xcode license agreements, please run 'sudo xcodebuild -license' from within a Terminal window to review and agree to the Xcode license agreements.
+
