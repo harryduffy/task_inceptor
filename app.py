@@ -1,16 +1,16 @@
 from slack_bolt import App
 from flask import Flask, request, Response
 from slack_bolt.adapter.flask import SlackRequestHandler
-import requests
 import json
 from main import flask_app
+import os
 # from main import flask_app
 # from flask import Flask
 # app = App(token=os.environ.get("SLACK_BOT_TOKEN"))
 
 app = App(
-    token="xoxb-2338273112864-2353767630915-TDWUUknzvjKPubXMiuylrExC",
-    signing_secret="153eaf8eb98394cf756945d8b251526d"
+    token=os.environ.get("APP_TOKEN"),
+    signing_secret=os.environ.get("APP_SIGNING_SECRET")
     )
 handler = SlackRequestHandler(app)
 
