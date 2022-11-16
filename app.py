@@ -6,7 +6,7 @@ import json
 from main import flask_app
 # from main import flask_app
 # from flask import Flask
-# app = App(token=os.environ.get("SLACK_BOT_TOKEN")) #hey
+# app = App(token=os.environ.get("SLACK_BOT_TOKEN"))
 
 app = App(
     token="xoxb-2338273112864-2353767630915-TDWUUknzvjKPubXMiuylrExC",
